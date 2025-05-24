@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    font-family: tahoma;
+    font-size: 12pt;
+    color: white;
+}
+
+.faves {
+    width: 80%;
+    height: 40%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: stretch;
+}
+
+.favechoice {
+    flex: 0 0 20%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15pt;
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 3vh;
+}
+
+header {
+    color: plum;
+    text-align: center;
+}
