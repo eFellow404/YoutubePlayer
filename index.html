@@ -9,18 +9,15 @@
   </head>
   <body>
     <header>
-      <p> YouTube Player</p>
+      <div class="search-container">
+        <input id="search-input" type="text" placeholder="Search for a video...">
+        <button id="search-button">Search</button>
+      </div>
+      <button id="login-button">Login with Google</button>
     </header>
-    <div class="faves">
-        <div class="favechoice">q</div>
-        <div class="favechoice">q</div>
-        <div class="favechoice">q</div>
-        <div class="favechoice">q</div>
-        <div class="favechoice">q</div>
-        <div class="favechoice">q</div>
-        <div class="favechoice">q</div>
-        <div class="favechoice">q</div>
-    </div>
+    <main>
+      <div id="results-container"></div>
+    </main>
     <script src="renderer.js"></script>
   </body>
 </html>
